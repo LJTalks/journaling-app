@@ -26,13 +26,21 @@ body {
     margin-bottom: 10px;
 }
 
+::placeholder {
+    font-family: Inter, sans-serif;
+    color: #ccc;
+    font-style: ;
+    opacity: 1;
+    font-size: 1rem;
+}
+
 /*------Ideas Generator Styles------*/
 
 #ideas-generator .container {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255 .3);
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0 0 0 0.2);
     max-width: 100%;
