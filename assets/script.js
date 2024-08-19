@@ -49,8 +49,7 @@ function displayIdea(idea) {
 //add function to copy the idea to clipboard
 function copyIdea(event) {
     const idea = event.target.parentElement.querySelector('span').textContent;
-    navigator.clipboard.writeText(idea).then(() =>
-    {
+    navigator.clipboard.writeText(idea).then(() => {
         alert("Copied to clipboard");
     }).catch(err => {
         console.error("Failed to copy: ", err);
@@ -59,8 +58,13 @@ function copyIdea(event) {
 
 //add function to edit the idea
 function editIdea(event) {
-    // Function to edit the idea
+    const ideaElement = event.target.parentElement.querySelector('span');
+    const newIdea = prompt("Edit your idea:", ideaElement.textContent);
+    if (newIdea) {
+        ideaElement.textContent = newIdea;
+    }
 }
+
 
 function deleteIdea(event) {
     // Function to delete the idea
