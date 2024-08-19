@@ -7,14 +7,14 @@
     <title>My Journaling Friend</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-        </style>
+    </style>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <section id="heading">
-            <h1>My Inspiring Journal</h1>
+        <h1>My Inspiring Journal</h1>
     </section>
 
     <!-- Ideas Generator -->
@@ -29,7 +29,17 @@
             </div>
             <div id="ideasContainer"></div>
         </div>
+    </section>
 
+    <!-- My Journal Entry -->
+    <section id="journal-entry">
+        <div class="header">
+            <h2>My Journal Entry</h2>
+        </div>
+        <div class="container entry">
+            <textarea id="journalInput" placeholder="Write your thoughts here..."></textarea>
+            <button id="saveJournalBtn">Save Entry</button>
+        </div>
     </section>
     <script src="./assets/script.js"></script>
 </body>
