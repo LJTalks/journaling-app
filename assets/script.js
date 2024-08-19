@@ -65,7 +65,6 @@ function editIdea(event) {
     }
 }
 
-
 function deleteIdea(event) {
     const ideaItem = event.target.parentElement;
     ideaItem.remove();
