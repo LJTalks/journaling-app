@@ -1,9 +1,4 @@
-# Testing
-
-(link)
-Testing the "copy idea" function. The alert pop up is annoying because you have to click to clear it. The function does work though so I feel like I can remove the alert now.  
-
-# PROJECT NAME TO GO HERE
+# Inspire Me Journal
 
 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
@@ -11,8 +6,7 @@ Add a Blurb about the site here, what does it do, why did you build it?
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
+[Link to live site](https://github.com/LJTalks/journaling-app)
 If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
@@ -129,23 +123,37 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML CSS & JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Gitpod
+Github
+Miro
+W3 HTML and CSS Validators
+JSHint JavaScript Validator
+
+
+(Add any frameworks, libraries or programs used while creating your project.
 
 Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.)
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+The site is deployed using GitHub Pages - [Inspire Me Journal](https://ljtalks.github.io/journaling-app/).
+
+To Deploy the site using GitHub Pages:
+
+Login (or signup) to Github.
+Go to the repository for this project, ljtalks/journaling-app/.
+Click the settings button.
+Select pages in the left hand navigation menu.
+From the source dropdown select main branch and press save.
+The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -153,11 +161,21 @@ The local development section gives instructions on how someone else could make 
 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the repository:
+
+Log in (or sign up) to Github.
+Go to the repository for this project, ljtalks/journaling-app
+Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the repository:
+
+Log in (or sign up) to GitHub.
+Go to the repository for this project, ljtalks/journaling-app
+Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
@@ -166,6 +184,8 @@ Start as you mean to go on - and get used to writing a TESTING.md file from the 
 Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+
+![W3 HTML Validation](./assets/images/readme-img/w3-html-validator.png)
 
 ![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
 
@@ -177,6 +197,8 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 [github.com/adam-p Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 [Kera Cudmore Readme Examples](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
+
+Example Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 [Here is my learning repository where I have attempted various YouTube tutorials whilst learning JavaScript, each project is credited with the source](https://github.com/LJTalks/my-first-js)
 
