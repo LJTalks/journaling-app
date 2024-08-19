@@ -89,3 +89,35 @@ function deleteIdea(event) {
     const ideaItem = event.target.parentElement;
     ideaItem.remove();
 }
+
+//Collect the start time when user starts to type
+let startTime = null;
+
+document.getElementById('journalInput').addEventListener('input',function() {
+    if (!startTime) {
+        startTime = new Date().toLocaleString();
+    }
+});
+
+//save the journal entry with the timestamp
+
+document.getElementById('saveJournalBtn').addEventListener('click', function() {
+    const journalEntry = document.getElementById('journalInput').value.trim();
+
+    if (journalEntry) {
+        const savedEntry = {
+            text: journalEntry,
+            time: startTime
+        };
+
+        //save to localStorage
+        localStorage.setItem('journalEntry', JSON.stringify(savedEntry));
+        alert("Journal entry saved!");
+
+        //reset the form
+        document.getElementById('journalInput').value = '';
+        startTime = null;
+    }   else {
+        alert("Please write in journal before saving.");
+    }
+});
