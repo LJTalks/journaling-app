@@ -1,14 +1,13 @@
-
 //When the button is clicked, we look for a keyword. 
 //If there is a keyword we generate idea
 //otherwise we alert no keyword
 document.getElementById('generateBtn').addEventListener('click', function () {
-    const keyword = document.getElementById('keywordInput').value;
+    const keyword = document.getElementById('keywordInput').value.trim();
     if (keyword) {
         generateIdea(keyword);
     } else {
         alert("Please enter a keyword or topic");
-        }
+    }
 });
 
 //generate random idea function add more ideas?
@@ -25,22 +24,7 @@ function generateIdea(keyword) {
     displayIdea(randomIdea);
 }
 
-// const ideaText = document.createElement('span');
-// ideaText.textContent = idea;
-// ideaText.className = 'idea-text';
-
-
-function displayIdea(idea) {
-    const ideasContainer = document.getElementById('ideasContainer');
-    const buttonsContainer = document.getElementById('buttonsContainer');
-    
-    ideaItem = document.createElement('div');
-    ideaItem.className = 'idea-item';
-    ideaItem.textContent = idea;
-    ideasContainer.appendChild(ideaItem);
-}
-
-
+//display idea with buttons for copy, edit and delete
 function displayIdea(idea) {
     const ideasContainer = document.getElementById('ideasContainer');
 
@@ -64,7 +48,13 @@ function displayIdea(idea) {
 
 //add function to copy the idea to clipboard
 function copyIdea(event) {
-    // Function to copy the idea (e.g., copy to clipboard)
+    const idea = event.target.parentElement.querySelector('span').textContent;
+    navigator.clipboard.writeText(idea).then(() =>
+    {
+        alert("Copied to clipboard");
+    }).catch(err => {
+        console.error("Failed to copy: ", err);
+    });
 }
 
 //add function to edit the idea
