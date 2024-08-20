@@ -70,7 +70,8 @@ function displayIdea(idea) {
 function copyIdea(event) {
     const idea = event.target.parentElement.querySelector('span').textContent;
     navigator.clipboard.writeText(idea).then(() => {
-        alert("Copied to clipboard");
+        //focus on the journal after copying the idea
+       document.getElementById("journalInput").focus();
     }).catch(err => {
         console.error("Failed to copy: ", err);
     });
