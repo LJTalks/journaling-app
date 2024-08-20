@@ -59,6 +59,9 @@ Add your user stories here. You want to include first time visitors and returnin
 
 👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
+![logo with heart, lightbub and writing pen](assets/images/inspireme-logo.png)
+I created a simple logo in [Canva](https://www.canva.com/) and converted it to a Favicon using [Favicon.io](https://favicon.io/favicon-converter/)
+
 ### Colour Scheme
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
@@ -196,7 +199,7 @@ view the example TESTING.md file [here](milestone1-testing.md)
 
 Example Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
-[Here is my learning repository where I have attempted various YouTube tutorials whilst learning JavaScript, each project is credited with the source](https://github.com/LJTalks/my-first-js)
+[Here is my learning repository where I have attempted various YouTube tutorials whilst learning JavaScript, each project is credited with the source](https://ljtalks.github.io/my-first-js/)
 
 ### Code Used
 
