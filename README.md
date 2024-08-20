@@ -170,6 +170,12 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 **Enhanced Entry Management**: Add sorting, filtering, and search capabilities for journal entries.
 
+**Direct post to your Social Media Networks**
+Sign into your social newtworks inside the app and directly post your journal entry to your preferred networks. 
+
+**Add your photos or images to your journal post**
+Ever heard the saying "Show, don't tell"? A picture can speak a thousand words. Add your photo's/images to your journal entries to enhance your experience. 
+
 ### Accessibility
 
 Be an amazing developer and get used to thinking about accessibility in all of your projects!
