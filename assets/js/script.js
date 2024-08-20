@@ -86,6 +86,7 @@ function editIdea(event) {
     }
 }
 
+//add function to delete the idea
 function deleteIdea(event) {
     const ideaItem = event.target.parentElement;
     ideaItem.remove();
@@ -105,7 +106,7 @@ document.getElementById('journalInput').addEventListener('input', function () {
 document.getElementById('saveJournalBtn').addEventListener('click', function () {
     const journalEntry = document.getElementById('journalInput').value.trim();
 
-    const startTime = new Date().toLocaleString(); //Capyure the current date and time 
+    const startTime = new Date().toLocaleString(); //Capture the current date and time 
 
     if (journalEntry) {
         const savedEntry = {
@@ -115,7 +116,7 @@ document.getElementById('saveJournalBtn').addEventListener('click', function () 
 
         //save to localStorage
         let entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
-        entries.push(savedEntry)
+        entries.push(savedEntry);
         localStorage.setItem('journalEntries', JSON.stringify(entries));
         alert("Journal entry saved!");
 
@@ -131,10 +132,10 @@ document.getElementById('saveJournalBtn').addEventListener('click', function () 
 });
 
 
-//Display the jopurnal Entries
+//Display the journal Entries
 function displaySavedEntries() {
     const entriesContainer = document.getElementById('entriesContainer');
-    entriesContainer.innerHTML = ''; //clear ixisting entries
+    entriesContainer.innerHTML = ''; //clear existing entries
 
     const entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
 
@@ -149,9 +150,9 @@ function displaySavedEntries() {
         <button class="deleteEntryBtn">Delete</button>
         `;
 
-        //Add event listeners to the buttos
+        //Add event listeners to the buttons
         entryItem.querySelector('.editEntryBtn').addEventListener('click', () => editEntry(index));
-
+        entryItem.querySelector('.deleteEntryBtn').addEventListener('click', () => deleteEntry(index));
         entriesContainer.appendChild(entryItem);
     });
 }
@@ -164,11 +165,11 @@ function editEntry(index) {
     if (newEntryText) {
         entries[index].text = newEntryText;
         localStorage.setItem('journalEntries', JSON.stringify(entries));
-        displaySavedEntries(); //updatee the display
+        displaySavedEntries(); //update the display
     }
 }
 
-//Function to delelte the Journa entries from the index
+//Function to delete the Journal entries from the index
 function deleteEntry(index) {
     let entries = JSON.parse(localStorage.getItem('journalEntries'));
     entries.splice(index, 1); //Removes the selected entry
