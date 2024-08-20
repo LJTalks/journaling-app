@@ -3,7 +3,9 @@
 ![Am I Responsive image](assets/images/readme-img/amiresponsive2.png)
 
 # Overview
-This project is a web-based journaling app designed to help users enhance productivity, focus, and mental clarity. Journaling is widely recongnised as a powerful tool to channel thoughts, set goals, and maintain a positive mindset. This app was created to facilitate that process by providing a structured space for daily reflection and idea generation.
+Welcome to your web-based journaling assistant, designed to help you enhance your productivity, focus, and mental clarity. 
+
+**Journaling** is widely recongnised as a powerful tool to channel thoughts, set goals, and maintain a positive mindset. This app was created to facilitate that process by providing a structured space for daily reflection and idea generation.
 
 This journaling app serves as a practical tool for anyone looking to improve their productivity and mental clarity. It’s a reflection of both my personal experiences and my growing skills in web development. I’m excited to continue improving this project, making it a more powerful resource for daily reflection and inspiration.
 
