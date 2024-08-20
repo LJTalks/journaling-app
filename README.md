@@ -9,7 +9,7 @@ This journaling app serves as a practical tool for anyone looking to improve the
 
 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
-[Link to live site](https://github.com/LJTalks/journaling-app)
+[Link to live site](https://ljtalks.github.io/journaling-app/)
 
 ---
 
@@ -98,7 +98,7 @@ I like to include a palette of the colour scheme here, my favourite site for cre
 
 ![alt text](assets/images/readme-img/google-font-inter.png)
 
-I chose the [Google font Inter](https://fonts.google.com/?query=inter). This choice was driven by a strong desire to enhance accessibility and ensure a smooth user experience for all visitors. 
+I chose the [Google font, Inter](https://fonts.google.com/?query=inter). This choice was driven by a strong desire to enhance accessibility and ensure a smooth user experience for all visitors. 
 
 Inter is a modern, sans-serif typeface that was specifically crafted with readability and clarity in mind.
 
@@ -250,7 +250,19 @@ During testing, I realized that while the app was designed to save journal entri
 
 To address this, I investigated and implemented functionality that allows users to view, edit, and delete their saved journal entries. This enhancement was simpler to integrate than anticipated and significantly improved the app's usability. The approach for managing journal entries drew inspiration from the ideas and functionality I had learned while developing a to-do app, which proved to be highly effective.
 
-The addition of these features not only resolved the issue but also enriched the app's functionality, making it a more robust and user-friendly tool for journaling. This enhancement has greatly improved the overall experience, and I am pleased with the outcome of this iterative design process.
+The addition of these features not only resolved that issue but also enriched the app's functionality, making it a more robust and user-friendly tool for journaling. This enhancement has greatly improved the overall experience, and I am pleased with the outcome of this **iterative design process**.
+
+### JS Hint
+
+![alt text](assets/images/readme-img/jshint2.png)
+
+**JavaScript Code Quality and Validation**
+To ensure the JavaScript code adheres to best practices, I used [JS Hint](https://jshint.com/) for validation. This tool provides valuable insights into the structure and complexity of my code:
+
+- Functions: 16 in total, with most functions being straightforward, handling minimal logic.
+- Complexity: The most complex function has a cyclomatic complexity of 3, while the median is 1, indicating low branching and simplicity.
+- Size: The largest function has 10 statements, with a median size of 3.5 statements.
+- These metrics suggest that the code is modular and easy to maintain, with some opportunities for optimization, particularly in reducing redundancy and simplifying logic.
 
 ### Am I Responsive
 ![Am I Responsive image](assets/images/readme-img/amiresponsive2.png)
@@ -266,6 +278,15 @@ view the example TESTING.md file [here](milestone1-testing.md)
 ![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
 This identified an error in my initial JS Script, where I had neglected to add an "Event Listener" to my "Delete journal entry" button. 
 
+## Real World Mobile Device Testing; Galaxy S20+ (Android) Mobile
+![Galaxy S20+ mobile phone tests](assets/images/readme-img/android-mobile-testing.png)
+
+To ensure that the site performs well across different devices, I accessed the deployed site on a Samsung Galaxy S20+ running Android. The app displayed correctly and functioned smoothly, maintaining the design integrity and responsiveness across various screen sizes.
+
+I specifically tested the **Journaling Ideas Generator** and **Save Entry** features, ensuring that all buttons and interactive elements worked as intended. The user interface was easy to navigate, and the performance was consistent with that of the desktop version. The screenshots above demonstrate how the site appeared during this testing.
+
+While I did not use a tool equivalent to Lighthouse on mobile, the visual and functional checks confirmed that the app meets my expectations for mobile usability.
+
 ## Learning Outcomes
 
 This project, while simple in scope, allowed me to deepen my understanding of JavaScript, CSS, and HTML. 
@@ -273,6 +294,17 @@ This project, while simple in scope, allowed me to deepen my understanding of Ja
 I focused on creating a responsive and user-friendly interface, while also incorporating important features like local storage and dynamic content generation. 
 
 The challenges I faced, particularly with the API integration for the quote feature, have given me insight into areas for further learning and development.
+
+**Future Code Improvements**
+To ensure the app remains scalable and maintainable, several potential improvements could be made to the JavaScript code:
+
+**Consolidate Functions**: Some functions, like those handling edit and delete actions for ideas and journal entries, could be refactored into more generic, reusable functions. This would reduce redundancy and make the code more DRY (Don't Repeat Yourself).
+
+**Modularize Code**: Breaking down larger functions into smaller, more focused functions would improve readability and make it easier to manage the code as the project grows.
+
+**Enhance Reusability**: By creating reusable components and utilities, the app can be more easily extended with new features, ensuring that future enhancements don’t lead to overly complex or unwieldy code.
+
+These changes will help maintain a clean, efficient codebase, making it easier to implement future features without compromising the app's performance or scalability.
 
 ## Credits
 
@@ -288,8 +320,10 @@ Example Deployment & Local Development section [here](https://github.com/kera-cu
 [Here is my learning repository where I have attempted various YouTube tutorials whilst learning JavaScript, each project is credited with the source](https://ljtalks.github.io/my-first-js/)
 
 ### Code Used
+![Todo Lists Inspiration](assets/images/readme-img/todo-lists-inspiration.png)
+I had a lot of assistance from recent YouTube tutorials I have tried. Many of these projects can be found [here](https://ljtalks.github.io/my-first-js/) 
 
-I had a lot of assistance from recent YouTube tutorials I have tried. Many of these projects can be found here 
+As well as my previous projects, I frequently referred to Google, W3Schools,  and Chat GPT to ensure my code was as clean, logical and well structured as I could make it. 
 
 ### Content and Ideas
 
