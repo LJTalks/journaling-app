@@ -8,43 +8,53 @@
     <meta name="description"
         content="An intuitive journaling app that combines content idea generation with personal journal entries. Stay inspired and organized with our easy-to-use, mobile-friendly interface.">
     <title>My Journaling Friend</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     </style>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <section id="heading">
-        <h1>My Inspiring Journal</h1>
+        <h1>Inspire Me Journal</h1>
     </section>
 
-    <!-- Ideas Generator -->
-    <section id="ideas-generator">
-        <div class="header">
-            <h2>Content Ideas Generator</h2>
-        </div>
-        <div class="container">
-            <div class="input-row">
-                <input type="text" id="keywordInput" placeholder="Enter a keyword or topic">
-                <button id="generateBtn">Generate Ideas</button>
-            </div>
-            <div id="ideasContainer"></div>
-        </div>
-    </section>
+    <div id="main">
 
-    <!-- My Journal Entry -->
-    <section id="journal-entry">
-        <div class="header">
-            <h2>My Journal Entry</h2>
+        <!-- Ideas Generator -->
+        <div id="main">
+            <section id="ideas-generator">
+                <div class="header">
+                    <h2>Content Ideas Generator</h2>
+                </div>
+                <div class="container">
+                    <div class="input-row">
+                        <input type="text" id="keywordInput" placeholder="Enter a keyword or topic">
+                        <button id="generateBtn">Generate Ideas</button>
+                    </div>
+                    <div id="ideasContainer"></div>
+                </div>
+            </section>
+
+            <!-- My Journal Entry -->
+            <section id="journal-entry">
+                <div class="header">
+                    <h2>My Journal Entry</h2>
+                </div>
+                <div class="container entry">
+                    <textarea id="journalInput" placeholder="Write your thoughts here..."></textarea>
+                    <button id="saveJournalBtn">Save Entry</button>
+                </div>
+            </section>
+            <script src="./assets/js/script.js"></script>
         </div>
-        <div class="container entry">
-            <textarea id="journalInput" placeholder="Write your thoughts here..."></textarea>
-            <button id="saveJournalBtn">Save Entry</button>
-        </div>
-    </section>
-    <script src="./assets/script.js"></script>
+    </div>
 </body>
 
 </html>
