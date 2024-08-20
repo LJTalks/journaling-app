@@ -39,10 +39,10 @@ body {
 }
 
 textarea {
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-    color: #333; 
+    color: #333;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -51,6 +51,10 @@ textarea {
     resize: vertical;
 }
 
+.footer {
+    text-align: center;
+    font-size: 0.7rem;
+}
 
 /*------Ideas Generator Styles------*/
 
@@ -180,6 +184,10 @@ button:hover {
         max-width: 80%;
     }
 
+    .footer {
+        font-size: 1rem;
+    }
+
 }
 
 /* Media query for screens <430px */
@@ -193,5 +201,8 @@ button:hover {
 
 /* Media query for larger screens */
 @media screen and (min-width: 1000px) {
-
+    
+.footer {
+    font-size: 1.2rem;
+}
 }

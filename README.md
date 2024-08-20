@@ -166,9 +166,20 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 **Inspirational Quote** (Future Implementation): The first feature intended for the app was an uplifting or inspiring quote that would greet the user each day. This quote would set a positive tone, fostering gratitude and focus before diving into the journal entry. While I encountered challenges with integrating the API for this feature, it's a planned addition for future updates.
 
+**The main problem with journaling apps: you have to remember to open them.** 
+We're about to introduce a pop up (Modal) to remind you, and assist you to set up "inspire Me Journal" as your home page on your preferred browser. Every time you open a new web browser window, you'll have a visual reminder to think about your next journal entry. 
+
+The upcoming paid subsription version (£3/month) will email you once a day, at the time of your choice, reminding you that it's time to start your journal. You could even complete your journal by simply replying to that email.
+
 **API Integration for Inspirational Quotes**: Successfully implement the API to fetch daily inspirational quotes.
 
 **Enhanced Entry Management**: Add sorting, filtering, and search capabilities for journal entries.
+
+**Direct post to your Social Media Networks**
+Sign into your social newtworks inside the app and directly post your journal entry to your preferred networks. 
+
+**Add your photos or images to your journal post**
+Ever heard the saying "Show, don't tell"? A picture can speak a thousand words. Add your photo's/images to your journal entries to enhance your experience. 
 
 ### Accessibility
 
