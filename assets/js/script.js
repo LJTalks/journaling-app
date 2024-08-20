@@ -118,8 +118,7 @@ document.getElementById('saveJournalBtn').addEventListener('click', function () 
         let entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
         entries.push(savedEntry);
         localStorage.setItem('journalEntries', JSON.stringify(entries));
-        alert("Journal entry saved!");
-
+        
         //reset the form
         document.getElementById('journalInput').value = '';
 
