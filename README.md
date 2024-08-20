@@ -1,6 +1,6 @@
 # Inspire Me Journal
 
-![Am I Responsive image](assets/images/readme-img/amiresponsive1.png)
+![Am I Responsive image](assets/images/readme-img/amiresponsive2.png)
 
 # Overview
 This project is a web-based journaling app designed to help users enhance productivity, focus, and mental clarity. Journaling is widely recongnised as a powerful tool to channel thoughts, set goals, and maintain a positive mindset. This app was created to facilitate that process by providing a structured space for daily reflection and idea generation.
@@ -135,17 +135,20 @@ By incorporating a Vision Board, the app will offer a more comprehensive tool fo
 
 ![Wireframes](assets/images/readme-img/wireframes.png)
 
+**Wireframes and Initial Design**:
+The initial design of the journaling app was guided by a commitment to simplicity and clarity. To visualize this design, I created simple wireframes using Miro. These wireframes reflect the clean and straightforward lines intended for the app's interface. 
 
+My original plan included integrating an inspirational quote from an API in the first box to set a positive tone for the user. However, I encountered difficulties with API integration, so this feature will be added in a future update.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+Whilst testing the apps functionality, I realised the application had a major flaw, so in order to address this, and improve the overall experience, the Saved Journal Entries section was added. 
 
 ## Features
 
-**Inspirational Quote** (Future Implementation): The first feature intended for the app was an uplifting or inspiring quote that would greet the user each day. This quote would set a positive tone, fostering gratitude and focus before diving into the journal entry. While I encountered challenges with integrating the API for this feature, it's a planned addition for future updates.
-
 **Content Ideas Generator**: To spark creativity, the app includes a Content Ideas Generator. Users can input a keyword or topic, and the app generates a variety of thought-provoking prompts. This feature is particularly useful for overcoming writer’s block or for guiding the journaling process.
+
+Multiple ideas can be generated, copied, edited, then copied or delelted. The edit function works, but for future I would like to make this process more in line with the style of the app, perhaps using a JavaScript modal, however it is functional, and allows the idea to be edited, then copied or deleted. 
+
+The Copy idea function copies the generated idea to the users clipboard, then moves the cursor directly into the Journalling box so the user can simply paste their idea directly and get started with their journaling.  
 
 **Journal Entry Section**: The core of the app is the journal entry section, where users can write and save their thoughts. Each entry is saved with a timestamp, making it easy to track progress over time. The journal entries are stored in the browser's local storage, ensuring that they remain accessible and editable even after closing the app.
 
@@ -160,6 +163,8 @@ If there is a feature that appears on all pages of your site, include it here. E
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
+
+**Inspirational Quote** (Future Implementation): The first feature intended for the app was an uplifting or inspiring quote that would greet the user each day. This quote would set a positive tone, fostering gratitude and focus before diving into the journal entry. While I encountered challenges with integrating the API for this feature, it's a planned addition for future updates.
 
 **API Integration for Inspirational Quotes**: Successfully implement the API to fetch daily inspirational quotes.
 
@@ -239,11 +244,27 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 
 ## Testing
 
+### Discovery and Enhanced Functionality:
+
+During testing, I realized that while the app was designed to save journal entries upon clicking the "Save Journal" button, there was no straightforward way to access and review these entries. This limitation led me to explore ways to display and manage the saved entries within the app.
+
+To address this, I investigated and implemented functionality that allows users to view, edit, and delete their saved journal entries. This enhancement was simpler to integrate than anticipated and significantly improved the app's usability. The approach for managing journal entries drew inspiration from the ideas and functionality I had learned while developing a to-do app, which proved to be highly effective.
+
+The addition of these features not only resolved the issue but also enriched the app's functionality, making it a more robust and user-friendly tool for journaling. This enhancement has greatly improved the overall experience, and I am pleased with the outcome of this iterative design process.
+
+### Am I Responsive
+![Am I Responsive image](assets/images/readme-img/amiresponsive2.png)
+The site was designed with a Mobile First approach to ensure optimal usability on smaller screens. Additional upscaling was implemented for larger screens to enhance the visual experience. The site adjusts its layout effectively based on the screen size, providing a user-friendly interface across different devices.
+
+![Am I Responsive image](assets/images/readme-img/amiresponsive1.png)
+The image above demonstrates how the site loads on first use, prior to generating any ideas or saving any entries. While the initial load appears as shown, the app is expected to display correctly once data is stored locally. This issue does not significantly impact the overall user experience, but I am actively working to address and rectify this bug to ensure consistent functionality and appearance.
+
 view the example TESTING.md file [here](milestone1-testing.md)
 
 ![W3 HTML Validation](./assets/images/readme-img/w3-html-validator.png)
 
 ![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
+This identified an error in my initial JS Script, where I had neglected to add an "Event Listener" to my "Delete journal entry" button. 
 
 ## Learning Outcomes
 
@@ -270,15 +291,21 @@ Example Deployment & Local Development section [here](https://github.com/kera-cu
 
 I had a lot of assistance from recent YouTube tutorials I have tried. Many of these projects can be found here 
 
-### Content
+### Content and Ideas
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+This site was developed as my first personal project during the Code Institute's 16-week Intensive Full Stack Developer Course. I chose to create an app for journaling and productivity, a tool I intend to use personally and continually enhance over time.
+
+The primary focus of this project is to deliver a functional and intuitive journaling and idea generation tool. The content is intentionally minimal, designed to enhance the overall user experience without distractions.
+
+**Content Creation**
+All text, including placeholders, prompts, and instructions, was crafted to be clear, concise, and aligned with the app’s functionality. This includes the introductory text, button labels, and user prompts.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
-  
+While the current version of the site does not utilize any external media (images, audio, video, etc.), this section is reserved for future updates. Should the site evolve to include features like the vision board, any media used will be appropriately credited here, with links back to the source and details on where it is used within the site.
+
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to extend my gratitude to Elaine and Mark, the facilitators of the Code Institute Full Stack Developer Course, for their invaluable advice, materials, and infectious positive attitudes. Their guidance has been instrumental throughout this journey. I also want to acknowledge my fellow students, whose camaraderie, support, and encouragement have made this learning experience truly enjoyable and enriching.
 
+Lastly, a special thank you to my virtual office assistant, ChatGPT, for mostly always being there with helpful advice, coding tips, and the occasional dose of humor, making remote work a little less lonely!
