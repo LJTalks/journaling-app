@@ -16,6 +16,7 @@ body {
     text-align: center;
     z-index: 1000;
     padding: 10px 0;
+    box-sizing: border-box;
 }
 
 #main {
@@ -149,14 +150,20 @@ button:hover {
 
 /* Media query for screens >=430px */
 @media screen and (min-width: 430px) {
-    #main {
-        padding: 40px;
-    }
 
     #keywordInput {
         max-width: 400px;
     }
 
+}
+
+/* Media query for screens <430px */
+@media screen and (max-width: 429px) {
+    #heading {
+        font-size: 1rem;
+        padding: 8px 0;
+        width: 100%;
+    }
 }
 
 /* Media query for larger screens */
@@ -167,6 +174,6 @@ button:hover {
     }
 
     #ideas-generator .container {
-        max-width: 800px;
+        max-width: 1000px;
     }
 }

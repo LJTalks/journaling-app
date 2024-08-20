@@ -38,7 +38,7 @@ function generateIdea(keyword) {
         `What are the hidden benefits of ${keyword} that you've discovered?`,
         `Write about a person who embodies the essence of ${keyword} and why you admire them`
     ];
-    
+
 
     const randomIdea = ideas[Math.floor(Math.random() * ideas.length)];
     displayIdea(randomIdea);
@@ -93,7 +93,7 @@ function deleteIdea(event) {
 //Collect the start time when user starts to type
 let startTime = null;
 
-document.getElementById('journalInput').addEventListener('input',function() {
+document.getElementById('journalInput').addEventListener('input', function () {
     if (!startTime) {
         startTime = new Date().toLocaleString();
     }
@@ -101,8 +101,10 @@ document.getElementById('journalInput').addEventListener('input',function() {
 
 //save the journal entry with the timestamp
 
-document.getElementById('saveJournalBtn').addEventListener('click', function() {
+document.getElementById('saveJournalBtn').addEventListener('click', function () {
     const journalEntry = document.getElementById('journalInput').value.trim();
+
+    const startTime = new Date().toLocaleString(); //Capyure the current date and time 
 
     if (journalEntry) {
         const savedEntry = {
@@ -111,13 +113,67 @@ document.getElementById('saveJournalBtn').addEventListener('click', function() {
         };
 
         //save to localStorage
-        localStorage.setItem('journalEntry', JSON.stringify(savedEntry));
+        let entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
+        entries.push(savedEntry)
+        localStorage.setItem('journalEntries', JSON.stringify(entries));
         alert("Journal entry saved!");
 
         //reset the form
         document.getElementById('journalInput').value = '';
-        startTime = null;
-    }   else {
+
+        //update the list of saved entries
+        displaySavedEntries();
+
+    } else {
         alert("Please write in journal before saving.");
     }
 });
+
+
+//Display the jopurnal Entries
+function displaySavedEntries() {
+    const entriesContainer = document.getElementById('entriesContainer');
+    entriesContainer.innerHTML = ''; //clear ixisting entries
+
+    const entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
+
+    entries.forEach((entry, index) => {
+        const entryItem = document.createElement('div');
+        entryItem.className = 'entry-item';
+
+        entryItem.innerHTML = `
+        <div>
+        <strong>${entry.time}</strong><p>${entry.text}</p></div>
+        <button class="editEntryBtn">Edit</button>
+        <button class="deleteEntryBtn">Delete</button>
+        `;
+
+        //Add event listeners to the buttos
+        entryItem.querySelector('.editEntryBtn').addEventListener('click', () => editEntry(index));
+
+        entriesContainer.appendChild(entryItem);
+    });
+}
+
+//Function to Edit the Journal Entries from  the index 
+function editEntry(index) {
+    const entries = JSON.parse(localStorage.getItem('journalEntries'));
+    const newEntryText = prompt("Edit your Journal Entry:", entries[index].text);
+
+    if (newEntryText) {
+        entries[index].text = newEntryText;
+        localStorage.setItem('journalEntries', JSON.stringify(entries));
+        displaySavedEntries(); //updatee the display
+    }
+}
+
+//Function to delelte the Journa entries from the index
+function deleteEntry(index) {
+    let entries = JSON.parse(localStorage.getItem('journalEntries'));
+    entries.splice(index, 1); //Removes the selected entry
+    localStorage.setItem('journalEntries', JSON.stringify(entries));
+    displaySavedEntries(); //Updates the display
+}
+
+//Load and display saved entries when the page loads
+window.onload = displaySavedEntries;
