@@ -1,13 +1,15 @@
 # Inspire Me Journal
 
+![Am I Responsive image](assets/images/readme-img/amiresponsive1.png)
+
+# Overview
+This project is a web-based journaling app designed to help users enhance productivity, focus, and mental clarity. Journaling is widely recongnised as a powerful tool to channel thoughts, set goals, and maintain a positive mindset. This app was created to facilitate that process by providing a structured space for daily reflection and idea generation.
+
+This journaling app serves as a practical tool for anyone looking to improve their productivity and mental clarity. It’s a reflection of both my personal experiences and my growing skills in web development. I’m excited to continue improving this project, making it a more powerful resource for daily reflection and inspiration.
+
 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
-Add a Blurb about the site here, what does it do, why did you build it?
-
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
 [Link to live site](https://github.com/LJTalks/journaling-app)
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -94,9 +96,15 @@ Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://ww
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+**Inspirational Quote** (Future Implementation): The first feature intended for the app was an uplifting or inspiring quote that would greet the user each day. This quote would set a positive tone, fostering gratitude and focus before diving into the journal entry. While I encountered challenges with integrating the API for this feature, it's a planned addition for future updates.
 
-This section can be used to explain what pages your site is made up of.
+**Content Ideas Generator**: To spark creativity, the app includes a Content Ideas Generator. Users can input a keyword or topic, and the app generates a variety of thought-provoking prompts. This feature is particularly useful for overcoming writer’s block or for guiding the journaling process.
+
+**Journal Entry Section**: The core of the app is the journal entry section, where users can write and save their thoughts. Each entry is saved with a timestamp, making it easy to track progress over time. The journal entries are stored in the browser's local storage, ensuring that they remain accessible and editable even after closing the app.
+
+**Entry Management**: Users can view, edit, and delete their saved journal entries directly from the main page. This functionality is designed to make the journaling process seamless and flexible.
+
+👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
 ### General features on each page
 
@@ -106,7 +114,9 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+**API Integration for Inspirational Quotes**: Successfully implement the API to fetch daily inspirational quotes.
+
+**Enhanced Entry Management**: Add sorting, filtering, and search capabilities for journal entries.
 
 ### Accessibility
 
@@ -188,6 +198,14 @@ view the example TESTING.md file [here](milestone1-testing.md)
 
 ![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
 
+## Learning Outcomes
+
+This project, while simple in scope, allowed me to deepen my understanding of JavaScript, CSS, and HTML. 
+
+I focused on creating a responsive and user-friendly interface, while also incorporating important features like local storage and dynamic content generation. 
+
+The challenges I faced, particularly with the API integration for the quote feature, have given me insight into areas for further learning and development.
+
 ## Credits
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
@@ -203,7 +221,7 @@ Example Deployment & Local Development section [here](https://github.com/kera-cu
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+I had a lot of assistance from recent YouTube tutorials I have tried. Many of these projects can be found here 
 
 ### Content
 
