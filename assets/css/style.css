@@ -56,6 +56,24 @@ textarea {
     font-size: 0.7rem;
 }
 
+/* Apply hover effect to all relevant buttons */
+button:hover,
+#saveJournalBtn:hover,
+#generateBtn:hover, 
+.buttons button:hover  {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+#saveJournalBtn,
+#generateBtn,
+.buttons button {
+    font-size: 1rem; /* Default font size */
+    padding: 10px 20px; /* Default padding */
+}
+
 /*------Ideas Generator Styles------*/
 
 #ideas-generator .container {
@@ -103,10 +121,6 @@ textarea {
     margin-left: 5px;
 }
 
-
-button:hover {
-    background-color: #ff007786;
-}
 
 #ideasContainer {
     margin-top: 20px;
@@ -201,8 +215,8 @@ button:hover {
 
 /* Media query for larger screens */
 @media screen and (min-width: 1000px) {
-    
-.footer {
-    font-size: 1.2rem;
-}
+
+    .footer {
+        font-size: 1.2rem;
+    }
 }
