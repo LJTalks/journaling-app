@@ -256,7 +256,6 @@ Type 'git clone' into the terminal and then paste the link you copied in step 3.
 ## Testing
 
 ### Discovery and Enhanced Functionality:
-
 During testing, I realized that while the app was designed to save journal entries upon clicking the "Save Journal" button, there was no straightforward way to access and review these entries. This limitation led me to explore ways to display and manage the saved entries within the app.
 
 To address this, I investigated and implemented functionality that allows users to view, edit, and delete their saved journal entries. This enhancement was simpler to integrate than anticipated and significantly improved the app's usability. The approach for managing journal entries drew inspiration from the ideas and functionality I had learned while developing a to-do app, which proved to be highly effective.
@@ -265,6 +264,11 @@ The addition of these features not only resolved that issue but also enriched th
 
 ### JS Hint
 
+**JS Initial tests**
+![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
+This identified an error in my initial JS Script, where I had neglected to add an "Event Listener" to my "Delete journal entry" button. 
+
+**JS Final Tests**
 ![alt text](assets/images/readme-img/jshint2.png)
 
 **JavaScript Code Quality and Validation**
@@ -275,6 +279,22 @@ To ensure the JavaScript code adheres to best practices, I used [JS Hint](https:
 - Size: The largest function has 10 statements, with a median size of 3.5 statements.
 - These metrics suggest that the code is modular and easy to maintain, with some opportunities for optimization, particularly in reducing redundancy and simplifying logic.
 
+
+## W3 Validator - HTML
+**HTML Initial Tests**
+![W3 Validator HTML Testing](assets/images/readme-img/w3-html-validator2.png)
+
+**HTML Final Tests**
+![W3 HTML Validation](./assets/images/readme-img/w3-html-validator.png)
+
+
+## W3 CSS Validator
+
+**CSS Initial Tests**
+
+**CSS Final Tests**
+![alt text](assets/images/readme-img/w3-css-validator2.png)
+
 ### Am I Responsive
 ![Am I Responsive image](assets/images/readme-img/amiresponsive2.png)
 The site was designed with a Mobile First approach to ensure optimal usability on smaller screens. Additional upscaling was implemented for larger screens to enhance the visual experience. The site adjusts its layout effectively based on the screen size, providing a user-friendly interface across different devices.
@@ -283,11 +303,6 @@ The site was designed with a Mobile First approach to ensure optimal usability o
 The image above demonstrates how the site loads on first use, prior to generating any ideas or saving any entries. While the initial load appears as shown, the app is expected to display correctly once data is stored locally. This issue does not significantly impact the overall user experience, but I am actively working to address and rectify this bug to ensure consistent functionality and appearance.
 
 view the example TESTING.md file [here](milestone1-testing.md)
-
-![W3 HTML Validation](./assets/images/readme-img/w3-html-validator.png)
-
-![JS Hint Testing JavaScript code](./assets/images/readme-img/jshint.png "Testing JavaScript code with JS Hint")
-This identified an error in my initial JS Script, where I had neglected to add an "Event Listener" to my "Delete journal entry" button. 
 
 ## Real World Mobile Device Testing; Galaxy S20+ (Android) Mobile
 ![Galaxy S20+ mobile phone tests](assets/images/readme-img/android-mobile-testing.png)
