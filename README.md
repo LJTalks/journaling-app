@@ -57,38 +57,85 @@ This journaling app serves as a practical tool for anyone looking to improve the
 
 Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
 
-## Design
+## Design and Colour Scheme
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
+The site design was intentionally kept simple to minimize distractions and focus on content creation. 
 
 ![logo with heart, lightbub and writing pen](assets/images/inspireme-logo.png)
 I created a simple logo in [Canva](https://www.canva.com/) and converted it to a Favicon using [Favicon.io](https://favicon.io/favicon-converter/)
 
-### Colour Scheme
+**Logo and Favicon Design**
+The logo and favicon for this journaling app are carefully crafted to embody the essence of the project's purpose: fostering creativity, inspiration, and personal growth. The design features a pink heart (#FF0077), which is both vibrant and warm, symbolizing passion, love, and energy—qualities that are integral to the act of journaling and self-reflection.
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+At the center of the heart is a white lightbulb icon, representing ideas, creativity, and enlightenment. The lightbulb contains a hand holding a pen, signifying the act of writing, which is at the core of this app. This visual element is designed to evoke the sense of capturing bright ideas and turning thoughts into written words, which is the essence of journaling.
+
+**Symbolism and Emotional Connection**
+**Pink Heart (#FF0077)**: The choice of the pink heart as the primary symbol reflects the app’s focus on emotional well-being, self-love, and personal reflection. Pink, being a color associated with warmth, comfort, and positivity, sets the tone for an encouraging and uplifting journaling experience.
+
+**White Lightbulb**: The lightbulb is a universal symbol of ideas and inspiration. By placing it within the heart, the logo suggests that the ideas generated through journaling are deeply personal and rooted in one's emotions and experiences.
+
+**Hand Writing with a Pen**: The hand with the pen inside the lightbulb reinforces the action-oriented nature of the app. It reminds users that journaling is not just about thinking but also about actively capturing and refining those thoughts.
+
+**Design Intent**
+The overall design is intended to conjure up feelings of creativity, inspiration, and personal empowerment. The heart shape and bright pink color are welcoming and suggest that the app is a safe, positive space for self-expression. The lightbulb and writing hand encourage users to see their journal as a tool for generating and organizing their thoughts, with the potential to illuminate their path forward.
+
+**By combining these elements, the logo and favicon serve as a visual metaphor for the app's mission: to inspire users to reflect, grow, and thrive through the practice of journaling.**
+
+**Future Colour Options Feature**
+![Future Colour Options, Green and Blue for accessibility](assets/images/readme-img/future-colours.png)
+
+Future enhancements include options for users to switch between light and dark modes, catering to different environments and personal preferences. 
+
+Additionally, the option to instantly change the default pink color (#FF0077) to another strong, accessible color such as Azure Blue (#0074D9) or a vibrant Fresh Green (#22C177) will be introduced. 
+
+These color choices are carefully selected to ensure readability and visual comfort, aligning with accessibility standards."
+
+👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
 I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+![alt text](assets/images/readme-img/google-font-inter.png)
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+I chose the [Google font Inter](https://fonts.google.com/?query=inter). This choice was driven by a strong desire to enhance accessibility and ensure a smooth user experience for all visitors. 
 
-I also like to include an image of the fonts chosen as a reference.
+Inter is a modern, sans-serif typeface that was specifically crafted with readability and clarity in mind.
 
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Inter features several key characteristics that align with accessibility best practices:
+
+**High Readability**: Inter is designed with a large x-height, open apertures, and clear letterforms. These design elements contribute to improved readability, making the text easier to read for users with varying levels of visual acuity.
+
+**Versatility**: The font includes a wide range of weights and styles, providing flexibility in design while maintaining visual consistency. This versatility allows for effective typographic hierarchies and clear differentiation between various text elements, enhancing overall user comprehension.
+
+**Optimized for Digital Screens**: Inter was created with digital screens in mind, incorporating features that reduce eye strain and improve legibility on various devices. This focus on screen readability ensures that users can comfortably interact with the content across different platforms and screen sizes.
+
+**Accessible Design**: The font's design takes into account accessibility concerns, such as avoiding confusing characters and ensuring sufficient contrast between different weights and styles. This attention to detail helps create an inclusive experience for all users, including those with visual impairments.
+
+By incorporating Inter into the app's design, I aimed to provide a clear, user-friendly reading experience that supports productivity and enhances the overall usability of the journaling tool. The choice reflects a commitment to accessibility and a dedication to creating a positive, engaging environment for users to reflect, plan, and inspire themselves.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+**Current Imagery**
+The current design of the journaling app embraces simplicity and clarity, with a deliberate choice to limit the use of images. This minimalist approach helps to keep the focus on the core functionalities of the app—generating content ideas and journaling—without unnecessary distractions
+
+**Future Plans: Vision Board Feature**
+
+**Looking ahead**, one of the exciting planned enhancements for the app is the introduction of a Vision Board feature. This addition will expand the app’s functionality by allowing users to:
+
+**Add Personal Images**: Users will be able to upload and integrate their own images into a vision board. This feature will enable them to visually represent their goals, inspirations, and dreams, making the journaling experience more personal, focused and engaging.
+
+**Set Goals**: The Vision Board will include functionality for setting and tracking personal goals. Users can add specific goals, deadlines, and milestones, providing a structured way to define and pursue their aspirations.
+
+**Break Down Goals**: To support goal achievement, the Vision Board will allow users to break down their larger goals into smaller, manageable tasks. This feature will help users create actionable steps, making it easier to track progress and stay motivated.
+
+By incorporating a Vision Board, the app will offer a more comprehensive tool for personal development. This feature aims to enhance user engagement by combining visual inspiration with actionable goal-setting, ultimately supporting a more dynamic and effective journaling experience.
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+![Wireframes](assets/images/readme-img/wireframes.png)
+
+
 
 There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
 
