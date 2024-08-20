@@ -152,8 +152,12 @@ button:hover {
 @media screen and (min-width: 430px) {
 
     #keywordInput {
-        max-width: 400px;
+        flex-grow: 1;
+        max-width: 80%;
     }
+
+    #keyword input {
+        flex: 2;
 
 }
 
@@ -169,9 +173,6 @@ button:hover {
 /* Media query for larger screens */
 @media screen and (min-width: 1000px) {
 
-    #keywordInput {
-        max-width: 600px;
-    }
 
     #ideas-generator .container {
         max-width: 1000px;
