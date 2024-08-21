@@ -38,6 +38,7 @@ h1 {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    flex-grow: 1;
 }
 
 .header {
@@ -70,6 +71,9 @@ textarea {
     text-align: center;
     font-size: .6rem;
     color: #333;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer a {
@@ -235,7 +239,7 @@ button:hover,
 
 
     .footer {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
 }
@@ -251,12 +255,4 @@ button:hover,
     #generateBtn {
         max-width: 100px;
         }
-}
-
-/* Media query for larger screens */
-@media screen and (min-width: 1000px) {
-
-    .footer {
-        font-size: 1.2rem;
-    }
 }
