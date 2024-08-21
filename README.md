@@ -282,7 +282,7 @@ To ensure the JavaScript code adheres to best practices, I used [JS Hint](https:
 - These metrics suggest that the code is modular and easy to maintain, with some opportunities for optimization, particularly in reducing redundancy and simplifying logic.
 
 
-## W3 Validator - HTML
+### W3 Validator - HTML
 **HTML Initial Tests**
 ![W3 Validator HTML Testing](assets/images/readme-img/w3-html-validator2.png)
 
@@ -290,7 +290,7 @@ To ensure the JavaScript code adheres to best practices, I used [JS Hint](https:
 ![W3 HTML Validation](./assets/images/readme-img/w3-html-validator.png)
 
 
-## W3 CSS Validator
+### W3 CSS Validator
 
 **CSS Initial Tests**
 
@@ -306,7 +306,7 @@ The image above demonstrates how the site loads on first use, prior to generatin
 
 view the example TESTING.md file [here](milestone1-testing.md)
 
-## Real World Mobile Device Testing; Galaxy S20+ (Android) Mobile
+### Real World Mobile Device Testing; Galaxy S20+ (Android) Mobile
 ![Galaxy S20+ mobile phone tests](assets/images/readme-img/android-mobile-testing.png)
 
 To ensure that the site performs well across different devices, I accessed the deployed site on a Samsung Galaxy S20+ running Android. The app displayed correctly and functioned smoothly, maintaining the design integrity and responsiveness across various screen sizes.
@@ -314,6 +314,18 @@ To ensure that the site performs well across different devices, I accessed the d
 I specifically tested the **Journaling Ideas Generator** and **Save Entry** features, ensuring that all buttons and interactive elements worked as intended. The user interface was easy to navigate, and the performance was consistent with that of the desktop version. The screenshots above demonstrate how the site appeared during this testing.
 
 While I did not use a tool equivalent to Lighthouse on mobile, the visual and functional checks confirmed that the app meets my expectations for mobile usability.
+
+### Lighthouse
+
+Lighthouse scores were initially disapointing, although I later realised I was testing the same browser that I had been using the application, which affected the scores. However, in doing this, I came to learn a lot about accessibility, particularly how dynamically created content can affect accessibility scores. 
+
+![Lighthouse scores Image format](assets/images/readme-img/lighthouse-imgformat.png)
+
+Further recommendations were made regarding images. The only image in the app is the logo, which was a .png file. By converting this to .webp format, the score was improved 
+
+![Picflow webp converter](assets/images/readme-img/picflow-webp-convert.png)
+
+Also, to help with Cumulative Layout Shift, the height and width of any images should be specified within the image tag in the html, as this helps the browser to calculate the aspect ratio and allocate the appropriate space even before the image is fully loaded. 
 
 ## Learning Outcomes
 
