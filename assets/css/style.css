@@ -233,6 +233,7 @@ button:hover,
         max-width: 80%;
     }
 
+
     .footer {
         font-size: 1rem;
     }
@@ -246,6 +247,10 @@ button:hover,
         padding: 8px 0;
         width: 100%;
     }
+
+    #generateBtn {
+        max-width: 100px;
+        }
 }
 
 /* Media query for larger screens */
