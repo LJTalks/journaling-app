@@ -9,8 +9,6 @@ Welcome to your web-based journaling assistant, designed to help you enhance you
 
 This journaling app serves as a practical tool for anyone looking to improve their productivity and mental clarity. It’s a reflection of both my personal experiences and my growing skills in web development. I’m excited to continue improving this project, making it a more powerful resource for daily reflection and inspiration.
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
 [Link to live site](https://ljtalks.github.io/journaling-app/)
 
 ---
@@ -52,18 +50,58 @@ This journaling app serves as a practical tool for anyone looking to improve the
 ---
 
 ## User Experience (UX)
+Inspire Me Journal is designed with the user experience at the forefront, offering a seamless and engaging interface for users to generate ideas and document their personal thoughts. Here’s how we ensure a user-centric experience:
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+1. Intuitive Design
+The app features a clean and minimalistic design that allows users to focus on their content without distractions. With a responsive layout, users can easily navigate the app on any device, whether they are on a desktop or mobile.
+
+2. Effortless Idea Generation
+We understand that journaling can sometimes be challenging, especially when it comes to finding the right topic. The Ideas Generator provides users with creative prompts based on their input, helping to spark inspiration. Users can generate ideas with a single click, making it simple and fast to get started.
+
+3. Personalized Journal Entries
+The journaling section allows users to easily record their thoughts, ideas, and reflections. The textarea is spacious and adaptable, catering to both short notes and longer entries. Users can save their entries with a timestamp, providing a personal record of their journey over time.
+
+4. Flexible Entry Management
+Users have full control over their journal entries with options to edit or delete any entry at any time. This flexibility ensures that users can maintain a journal that accurately reflects their thoughts and experiences.
+
+5. User-Friendly Interactions
+Interactive elements, such as buttons and input fields, are designed for clarity and ease of use. Hover effects and visual feedback guide users through their actions, enhancing the overall usability of the app. The ability to copy ideas to the clipboard and focus directly on the journal further streamlines the process.
+
+6. Persistent Data Storage
+All journal entries are stored locally, so users can pick up where they left off without the worry of losing their content. This persistence ensures a continuous and reliable journaling experience.
+
+7. Encouraging Creativity and Reflection
+By combining idea generation with journaling, the app encourages users to explore new topics and reflect deeply on their thoughts. The prompts are designed to be thought-provoking and relevant, helping users connect with their inner creativity and emotions.
+
+In summary, Inspire Me Journal provides a user experience that is simple, yet powerful, enabling users to stay inspired, organized, and connected with their thoughts in a personal and meaningful way.
 
 ### User Stories
+1. Idea Generation
+As a user, I want to quickly generate journaling ideas based on a keyword or topic, so that I can find inspiration when I'm unsure of what to write about.
+As a user, I want to be able to edit the generated ideas, so that I can personalize them to better suit my journaling needs.
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+2. Journal Entry Management
+As a user, I want to write and save my journal entries, so that I can keep a record of my thoughts and reflections.
+As a user, I want to edit my saved journal entries, so that I can update or correct my past entries as needed.
+As a user, I want to delete journal entries, so that I can remove any content that is no longer relevant or wanted.
+
+3. User Interface
+As a user, I want to see the most important features prominently displayed, so that I can easily navigate the app without confusion.
+As a user, I want the app to be mobile-friendly, so that I can journal on the go using my smartphone or tablet.
+4. Clipboard Functionality
+As a user, I want to copy generated ideas directly to the clipboard, so that I can easily paste them into my journal or another document.
+5. Persistent Data Storage
+As a user, I want my journal entries to be saved locally, so that I can access them even if I'm offline or close the app.
+6. Time Tracking
+As a user, I want my journal entries to be timestamped, so that I can reflect on when I wrote each entry and track my journaling over time.
+9. Load Saved Entries on Startup
+As a user, I want my previously saved journal entries to be automatically loaded when I open the app, so that I can continue from where I left off.
 
 ## Design and Colour Scheme
 
 The site design was intentionally kept simple to minimize distractions and focus on content creation. 
 
-![logo with heart, lightbub and writing pen](assets/images/inspireme-logo.png)
+![logo with heart, lightbub and writing pen](./assets/images/inspireme-logo.webp)
 I created a simple logo in [Canva](https://www.canva.com/) and converted it to a Favicon using [Favicon.io](https://favicon.io/favicon-converter/)
 
 **Logo and Favicon Design**
@@ -91,10 +129,6 @@ Future enhancements include options for users to switch between light and dark m
 Additionally, the option to instantly change the default pink color (#FF0077) to another strong, accessible color such as Azure Blue (#0074D9) or a vibrant Fresh Green (#22C177) will be introduced. 
 
 These color choices are carefully selected to ensure readability and visual comfort, aligning with accessibility standards."
-
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
 
@@ -135,7 +169,7 @@ By incorporating a Vision Board, the app will offer a more comprehensive tool fo
 
 ### Wireframes
 
-![Wireframes](assets/images/readme-img/wireframes.png)
+![Wireframes](./assets/images/readme-img/wireframes.png)
 
 **Wireframes and Initial Design**:
 The initial design of the journaling app was guided by a commitment to simplicity and clarity. To visualize this design, I created simple wireframes using Miro. These wireframes reflect the clean and straightforward lines intended for the app's interface. 
