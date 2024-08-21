@@ -87,16 +87,16 @@ button:hover,
 #saveJournalBtn:hover,
 #generateBtn:hover,
 .buttons button:hover {
-    font-size: 1.2rem;
     font-weight: bold;
-    padding: 12px 24px;
-    transition: all 0.2s ease-in-out;
+    transform: scale(1:1);
+    box-shadow: 0 0 15px rgba(255, 0, 119, 0.9);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 #saveJournalBtn,
 #generateBtn,
 .buttons button {
+    background-color: rgb(255, 0, 119);
     font-size: 1rem;
     padding: 10px 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
@@ -238,5 +238,5 @@ button:hover,
 
     #generateBtn {
         max-width: 100px;
-        }
+    }
 }
