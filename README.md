@@ -190,14 +190,6 @@ The Copy idea function copies the generated idea to the users clipboard, then mo
 
 **Entry Management**: Users can view, edit, and delete their saved journal entries directly from the main page. This functionality is designed to make the journaling process seamless and flexible.
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-### General features on each page
-
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
-
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
-
 ### Future Implementations
 
 **Inspirational Quote** (Future Implementation): The first feature intended for the app was an uplifting or inspiring quote that would greet the user each day. This quote would set a positive tone, fostering gratitude and focus before diving into the journal entry. While I encountered challenges with integrating the API for this feature, it's a planned addition for future updates.
@@ -219,19 +211,9 @@ Ever heard the saying "Show, don't tell"? A picture can speak a thousand words. 
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+Accessibility is very important to me, and I spent a lot of time at the design and testing stages ensuring the site adheres to accesibility best practises. Please see my Testing and Design sections for details. 
 
 ## Technologies Used
-
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
 
 ### Languages Used
 
@@ -244,13 +226,6 @@ Github
 Miro
 W3 HTML and CSS Validators
 JSHint JavaScript Validator
-
-
-(Add any frameworks, libraries or programs used while creating your project.
-
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.)
 
 ## Deployment & Local Development
 
@@ -381,9 +356,6 @@ To ensure the app remains scalable and maintainable, several potential improveme
 These changes will help maintain a clean, efficient codebase, making it easier to implement future features without compromising the app's performance or scalability.
 
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
 
 [github.com/adam-p Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
