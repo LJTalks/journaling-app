@@ -71,7 +71,7 @@ function copyIdea(event) {
     const idea = event.target.parentElement.querySelector('span').textContent;
     navigator.clipboard.writeText(idea).then(() => {
         //focus on the journal after copying the idea
-       document.getElementById("journalInput").focus();
+        document.getElementById("journalInput").focus();
     }).catch(err => {
         console.error("Failed to copy: ", err);
     });
@@ -102,7 +102,6 @@ document.getElementById('journalInput').addEventListener('input', function () {
 });
 
 //save the journal entry with the timestamp
-
 document.getElementById('saveJournalBtn').addEventListener('click', function () {
     const journalEntry = document.getElementById('journalInput').value.trim();
 
@@ -118,7 +117,7 @@ document.getElementById('saveJournalBtn').addEventListener('click', function () 
         let entries = JSON.parse(localStorage.getItem('journalEntries')) || [];
         entries.push(savedEntry);
         localStorage.setItem('journalEntries', JSON.stringify(entries));
-        
+
         //reset the form
         document.getElementById('journalInput').value = '';
 
@@ -129,7 +128,6 @@ document.getElementById('saveJournalBtn').addEventListener('click', function () 
         alert("Please write in journal before saving.");
     }
 });
-
 
 //Display the journal Entries
 function displaySavedEntries() {
