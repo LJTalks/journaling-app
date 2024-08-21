@@ -42,7 +42,7 @@ h1 {
 }
 
 .header {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -51,7 +51,7 @@ h1 {
     font-family: 'Inter', sans-serif;
     color: #ccc;
     opacity: 1;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 textarea {
@@ -69,7 +69,7 @@ textarea {
 
 .footer {
     text-align: center;
-    font-size: .6rem;
+    font-size: .8rem;
     color: #333;
     padding: 10px 0;
     width: 100%;
@@ -235,11 +235,6 @@ button:hover,
     #keywordInput {
         flex-grow: 1;
         max-width: 80%;
-    }
-
-
-    .footer {
-        font-size: .8rem;
     }
 
 }
